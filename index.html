@@ -15,20 +15,20 @@
       line-height: 1.6;
     }
     .image-container {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      text-align: center;
+      float: right; /* Float image to the right */
+      margin: 0 0 20px 20px; /* Add space to the left and bottom of the image */
+      max-width: 350px; /* Set max-width for the image */
     }
     .image-container img {
-      max-width: 400px;
-      height: auto;
+      width: 100%; /* Ensure the image takes up the full container width */
+      height: auto; /* Maintain aspect ratio */
       display: block;
     }
     .image-caption {
       font-size: 12px;
       font-style: italic;
       margin-top: 5px;
+      text-align: center; /* Center the caption */
     }
   </style>
 </head>
@@ -41,21 +41,13 @@
     <p class="image-caption">This is a placeholder image</p>
   </div>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae dignissim ex, eu lacinia augue. Aenean faucibus a felis ut lacinia. Aliquam vel congue metus. Mauris eu risus mollis lorem sollicitudin facilisis.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae dignissim ex, eu lacinia augue. Aenean faucibus a felis ut lacinia. Aliquam vel congue metus. Mauris eu risus mollis lorem sollicitudin facilisis. Vestibulum rutrum consectetur feugiat. Etiam est velit, elementum a ex sed, auctor ultricies tortor. Proin condimentum lacus sed rhoncus finibus. Nulla nec libero quis libero scelerisque gravida a ut nisl. Sed sodales ultrices libero, a hendrerit erat.</p>
 
-  <p>Vestibulum rutrum consectetur feugiat. Etiam est velit, elementum a ex sed, auctor ultricies tortor. Proin condimentum lacus sed rhoncus finibus. Nulla nec libero quis libero scelerisque gravida a ut nisl.</p>
+  <p>Fusce fringilla mi augue, a malesuada urna pulvinar ut. Suspendisse potenti. Vestibulum sed pellentesque arcu, eget tempor magna. Phasellus et diam et ante eleifend tristique. Suspendisse finibus sem nec tellus efficitur consequat. Curabitur non mattis risus. Nulla facilisi. Morbi vel sodales lectus.</p>
 
-  <p>Fusce fringilla mi augue, a malesuada urna pulvinar ut. Suspendisse potenti. Vestibulum sed pellentesque arcu, eget tempor magna. Phasellus et diam et ante eleifend tristique. Suspendisse finibus sem nec tellus efficitur consequat.</p>
+  <p>Sed pharetra, mauris et hendrerit dapibus, mauris sapien eleifend odio, nec sollicitudin augue diam sed est. Sed imperdiet velit ac pretium convallis. Aenean sodales ipsum metus, eget iaculis mi sodales a. In tincidunt tortor sed est ornare, a mollis urna mattis. Nam in convallis orci. Nunc in quam vel lacus aliquam viverra. Nulla condimentum, risus nec varius auctor, est leo tincidunt orci, quis porta risus metus at ex.</p>
 
-  <p>Curabitur non mattis risus. Nulla facilisi. Morbi vel sodales lectus.</p>
-
-  <p>Sed pharetra, mauris et hendrerit dapibus, mauris sapien eleifend odio, nec sollicitudin augue diam sed est. Sed imperdiet velit ac pretium convallis.</p>
-
-  <p>Proin blandit efficitur tellus quis gravida. Aenean rhoncus urna sed diam maximus, eu convallis velit placerat.</p>
-
-  <p>Praesent eget odio consequat, euismod eros ac, tincidunt massa. Morbi finibus libero eleifend viverra interdum. Praesent consectetur mauris pharetra pulvinar iaculis.</p>
-
-  <p>Mauris luctus vestibulum dui, quis dictum arcu. Pellentesque vitae erat a purus congue consectetur ac sed orci. Nunc quis tortor vel justo congue vestibulum eget sit amet sapien.</p>
+  <p>Praesent eget odio consequat, euismod eros ac, tincidunt massa. Morbi finibus libero eleifend viverra interdum. Praesent consectetur mauris pharetra pulvinar iaculis. Integer in sem vel ipsum aliquet commodo a a nisi. Quisque hendrerit ullamcorper quam, eu rhoncus elit semper vitae. Maecenas orci lorem, ornare id interdum sit amet, tincidunt ut quam. Vestibulum hendrerit sollicitudin tempus.</p>
 
 </body>
 </html>
