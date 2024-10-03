@@ -1,9 +1,9 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Would you like some sugar with your coffee, anon?</title>
+  <title>Title Page</title>
   <style>
     body {
       font-family: "Garamond", serif;
@@ -20,12 +20,14 @@
       margin-bottom: 20px;
       text-align: justify;
     }
-    /* Float the figure to the right */
-    figure {
-      float: right; /* Float the figure (image + caption) to the right */
+
+    /* Apply float only to the first figure using a class */
+    .float-right-figure {
+      float: right; /* Float the first figure (image + caption) to the right */
       margin: 0 0 20px 30px;
       width: 610px; /* Set the width of the image */
     }
+
     figcaption {
       font-size: 16px;
       text-align: center;
@@ -35,9 +37,10 @@
 </head>
 <body>
 
-  <h1>Would you like some sugar with your coffee, anon?</h1>
+  <h1>Title</h1>
 
-  <figure>
+  <!-- First figure with float -->
+  <figure class="float-right-figure">
     <img src="BAP_tweet.png" alt="Screenshot of the Tweet" width="610px">
     <figcaption>
       Tweet from @bronzeagemantis - 28/09/2024
@@ -48,7 +51,6 @@
     </figcaption>
   </figure>
 
-
   <p> Far-right and Twitter are very good friends. Even more since Elon Musk acquired the platform on the basis of freedom of speech promises, leading to the reinstatement of formerly banned twitter accounts like the ones of Donald Trump, Jordan Peterson, or Andrew Anglin. Among them was also unearthed the less known Bronze Age Pervert (shortened in ‘BAP’): an internet personality linked to the <a href="https://en.wikipedia.org/wiki/Dark_Enlightenment">NRx movement<a/>, <a href="https://www.politico.com/story/2019/08/23/alt-right-book-trump-1472413">who grew in popularity among young American right-wing male during Trump’s presidency</a>, thanks to his peculiar tweets and his book published in 2018: <i>Bronze Age Mindset</i>.</p>
 
   <p> It is common (and sometimes easy) to see the far-right as a mass of uneducated hillbillies flooding social media with memes, fake news, and all kind of <a href="https://doi.org/10.7551/mitpress/12436.001.0001">internet pollution</a>. What about <i>this</i>, but fueled by a Ph.D. Graduate in Political Science from Yale who can read the Iliad with the correct accent and prosody?</p>
@@ -58,10 +60,11 @@
 
   <p> To understand this, we can close read what is said in the text and put it in perspective with the two pictures in the tweet: The eagle, king of the birds, highlights masculine traits such as speed and dominance, paralleled with the athletic body and the rocket in the tweet’s images. Still in relation to the pictures, these characteristics are those of a warrior seeking triumph, whether it is to conquer the heart of a woman (as implied by mentioning the muse Clio), or to win a bigger ideological combat that will brighten supposed current dark times. Even more than this, the light (more often the sun), <a href="https://knowyourmeme.com/photos/2640145-bronze-age-pervert">a recurrent theme of far-right online posters</a>, comes from Greek antique cities which represent the birthplace of traditional and aristocratic values that BAP and his peers seem to regret so much.</p>
 
-   <p> BAP ususally likes to tweet with a crude humor style, but this example here belongs to another category. It is designed as an elegant post, in line with the <i>aesthetic</i> alt-right tweeting genre that consists in two images stuck next to each other (like our example), usually without a caption (not like our example), in order to create a visually pleasant whole, and often conveys an underlying message for those who can read between the lines. This fits a mimetic communication model where users can amplify a message, inoffensive at first sight, by sharing it not because it is funny (like in the meme/troll culture), but because it is visually appealing. <a href="https://x.com/bronzeagemantis/status/1819056294654865780">In the tweet below</a>, BAP himself explains the interest of such a practice.</p>
+   <p> BAP ususally likes to tweet with a crude humor style, but this example here belongs to another category. It is designed as an elegant post, in line with the <i>aesthetic</i> alt-right tweeting genre that consists in two images stuck next to each other (like our example), usually without a caption (not like our example), in order to create a visually pleasant whole, and often conveys an underlying message for those who can read between the lines. This fits a mimetic communication model where users can amplify a message, inoffensive at first sight, by sharing it not because it is funny (like in the meme/troll culture), but because it is visually appealing. <a href="https://x.com/bronzeagemantis/status/1819056294654865780">In this tweet</a>, BAP himself explains the interest of such a practice.</p>
 
+<!-- Second figure without float, centered -->
 <figure style="text-align: center; margin: 20px auto; width: 610px;">
-   <img src="BAP_tweet_2.png" alt="screenshot of tweet 2 of new image" width="610px" style="margin: 0 auto;">
+   <img src="BAP_tweet_2.png" alt="screenshot of tweet 2 of new image" width="610px">
     <figcaption> 
      Extract of a tweet from @bronzeagemantis - 01/08/2024
      <br>
@@ -72,7 +75,5 @@
 </figure>
 
   <p> 'Truth given in highly sugared doses’, also called white masculinity in stevia tablets poured behind your back while you unawarely check tweets during a coffee break. Looks like a smart trick to make you swallow the <a href="https://knowyourmeme.com/memes/red-pill"> 'white pill’ </a>. </p>
-      
-
 </body>
 </html>
